@@ -149,7 +149,7 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
-        label_4->setText(QCoreApplication::translate("MainWindow", "\320\244\321\203\320\275\320\272\321\206\321\226\321\217 (\320\262\320\260\321\203\321\203\320\260\320\272\320\262\321\203)", nullptr));
+        label_4->setText(QCoreApplication::translate("MainWindow", "\320\244\321\203\320\275\320\272\321\206\321\226\321\217 f(Cos(y)/2)", nullptr));
         label->setText(QCoreApplication::translate("MainWindow", "\320\277\320\276\321\207\320\260\321\202\320\276\320\272(A)", nullptr));
         label_3->setText(QCoreApplication::translate("MainWindow", "\320\272\321\226\320\275\320\265\321\206\321\214(B)", nullptr));
         label_2->setText(QCoreApplication::translate("MainWindow", "\320\277\320\276\320\264\321\226\320\273(N)", nullptr));

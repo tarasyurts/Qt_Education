@@ -34,7 +34,7 @@ void MainWindow::on_calculatePB_clicked()
                 ui->startSB->value(),
                 ui->endSB->value(),
                 ui->splitNumSB->value(),
-                [](double y){ return qCos(y); });
+                [](double y){ return qCos(y)/2; });
     showPoints();
 }
 
